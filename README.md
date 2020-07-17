@@ -92,6 +92,10 @@ Now this looks like a reasonable index item! You'll also get useless nonsense li
 
 The hope is that the useful non-nonsense outweighs the useless nonsense. I am not certain whether that is true. I'm pretty confident the GUI should be useful, however.
 
+# Should I use this?
+
+I'm not sure. If you have, or can easily get, a version of your text in .txt file, I think it would do no harm. If it's hard to get such a version, I would test it out first--convert and clean a small amount of text and see if it looks roughly okay. There are many disciplines for which it might work very poorly (anything with lots of numbers or non-Latin characters, for example). It should work okay hopefully for disciplines that like to use a lot of weird jargon, especially if those whose members are prone to nominalizing that jargon.
+
 # Set-up
 
 IM is a python script and you'll need python installed on your computer to run it. I'm not sure which all versions it supports, but 3.6 at least. If you already have python, you need to get also the [Natural Language Toolkit](https://www.nltk.org/) for Python (NLKT) and IM uses at least one corpus so you should download them too (you can just pip it, if you know what that is, else follow the link I just gave). One of the key requirements is that you have your book in text format--so, notably, *not* pdf. This is a big chokepoint: converting from pdf to txt is a bit perilous, and the ease with which you can do so will depend on idiosyncracies of the typeset text the publisher gives you. I use xpdf-tools pdftotext command line tool--I can vouch that it works with Oxford University Press documents. So, to recap:
