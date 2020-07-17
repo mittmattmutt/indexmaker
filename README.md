@@ -119,7 +119,7 @@ This should create two files: index.js and text.js. If you open them, you'll see
 
 # In Lieu Of Documentation
 
-An index skeleton is a list of lists. Let's call entries in the index, well, entries. The first entry is:
+An index skeleton is a list of lists (array of arrays). Let's call entries in the index, well, entries. The first entry is:
 
 ['ameliorative', [['ameliorative', [[43, 147]]], ['ameliorative analysis', [[107]]], ['ameliorative concept', [[111, 111]]], ['ameliorative definition', [[116]]], ['ameliorative definition—and', [[116]]], ['ameliorative project', [[102, 147]]], ['ameliorative spirit', [[132, 132, 132, 132]]], ['ameliorative strategy', [[141]]]]]
 
