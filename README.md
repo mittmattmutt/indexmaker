@@ -141,6 +141,6 @@ At this point, things are looking okay--you'll get about like that quoted at the
 
 # Licence
 
-MIT. If you improve upon this, I would love to know. I would also love to know if you find mistakes.
+MIT. If you improve upon this, I would love to know. The code is a super horrible mess (so: [please](https://i.kym-cdn.com/photos/images/original/001/214/092/3d9.jpg)) I would also love to know if you find mistakes.
 
 
