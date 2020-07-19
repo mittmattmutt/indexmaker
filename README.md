@@ -94,7 +94,7 @@ The hope is that the useful non-nonsense outweighs the useless nonsense. I am no
 
 # Should I use this?
 
-I'm not sure. If you have, or can easily get, a version of your text in .txt file, I think it would do no harm. If it's hard to get such a version, I would test it out first--convert and clean a small amount of text and see if it looks roughly okay. There are many disciplines for which it might work very poorly (anything with lots of numbers or non-Latin characters, for example). It should work okay hopefully for disciplines that like to use a lot of weird jargon, especially those whose members are prone to nominalizing that jargon.
+I'm not sure. If you have, or can easily get, a version of your text in .txt file, I think it would do no harm. If it's hard to get such a version, I would test it out first--convert and clean a small amount of text and see if it looks roughly okay. There are many disciplines for which it might work very poorly (anything with lots of numbers or non-Latin characters, for example). It should work okay hopefully for disciplines that like to use a lot of weird jargon, especially those whose members are prone to nominalizing that jargon. Check out [this](https://indexmakerdemo.glitch.me/) for an example of what the GUI bit looks like, and the sample index skeleton it generated for a portion of the book. In my opinion, it's definitely possible helpful; I will have a better sense of its reliability when I use it to make an index for a book at the end of the summer.
 
 # Set-up
 
