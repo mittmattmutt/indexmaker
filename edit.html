@@ -103,12 +103,8 @@ for(x=0;x<index.length;x++)
 {
 if (index[x][0]<term && index[x+1][0]>term)
 {
-console.log(index[x][0]);
-console.log(index[x+1][0]);
 index.splice(x,0,[term,[term,active_pages]]);
-console.log(index[x][0]);
-console.log(index[x+1][0]);
-console.log(index[x+2][0]);
+
 break;
 }
 }
@@ -121,7 +117,6 @@ function search()
 {
 active_pages=[];
 term=document.getElementById("search_term_text").value;
-console.log(term);
 document.getElementById("search_term_text").value="";
 start=0;
 
@@ -138,13 +133,11 @@ if(active_pages.length==0)
 document.getElementById("search_term").innerHTML="No results for "+term;
 return;
 }
-//console.log(searchedarray);
 var a=active_pages;
 a.unshift(term);
 
 document.getElementById("add").setAttribute("style","display:block; color:blue; cursor:pointer;");
 //active_pages.push(searchedarray);
-console.log(a);
 writepages(a);
 
 }
@@ -165,8 +158,7 @@ text=text+index[x][1][y]+",";}
 //console.log(text);
 text=text+'\n';
 }
-//console.log(text);
- //formerly new_array
+
 
 var pom=document.createElement('a');
 pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
@@ -205,7 +197,6 @@ function forward_pages()
 {
 var a=document.getElementById("search_term").innerHTML
 var new_a=a.split(",");
-console.log(a);
 document.getElementById("text_pane1").innerHTML="";
 document.getElementById("text_pane2").innerHTML="";
 document.getElementById("text_pane3").innerHTML="";
@@ -227,14 +218,12 @@ var text=0;
 var end_text=0
 var mid_text=0
 var new_text=0
-//console.log(active_pages[1][1]);
 panename="text_pane"+counter;
 for(y=0;y<text_file.length;y++)
 {
 scroll=0;
 
 if(text_file[y][0]==active_pages[x] && counter<4){
-console.log("i get here");
 var start_scroll=0;
 var location=0;
 var indices=[];
@@ -242,7 +231,6 @@ var position=0;
 var i=0;
 var text=text_file[y][1];
 
-//console.log(text);
 
 var j=0;
 while(text.indexOf(term, j)!=-1)
@@ -270,7 +258,6 @@ loc_pages++;
 
 function forward()
 {
-console.log("i get here"+loc);
 loc=loc+2;
 document.getElementById("index_pane").innerHTML="";
 makeIndex(loc);
@@ -336,7 +323,6 @@ document.getElementById(e_rep).remove();
 var new_id=e_rep.replace(",delete","");
 document.getElementById(new_id).remove();
 var toberemoved=new_id.split(",")[0]
-console.log(toberemoved);
 
 for(x=0;x<index.length;x++)
 {
